@@ -1,0 +1,42 @@
+.header {
+  background-color: #042444;
+  font-size: 60px;
+  white-space: nowrap;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100px;
+}
+
+.logo-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: #042444;
+}
+
+.exponential-coin {
+  height: 50px;
+}
+
+.exponential-coin-logo {
+  height: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media (max-width: 490px) {
+  .exponential-coin-logo {
+    height: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .exponential-coin {
+    height: 45px;
+  }
+
+}

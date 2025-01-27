@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #042444;
+  color: #B6D8FB;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  height: 75px;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: inherit;
+}
+
+@media (max-width: 490px) {
+  .footer {
+    display: inline-block;
+    height: auto;
+    font-size: 14px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
