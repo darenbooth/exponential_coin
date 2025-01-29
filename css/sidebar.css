@@ -1,0 +1,20 @@
+.sidebar {
+  background-color: #B6D8FB;
+  color: #042444;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top : 100px;
+  width: 100px;
+}
+
+.sidebar div {
+  cursor: pointer;
+}
